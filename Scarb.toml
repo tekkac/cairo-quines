@@ -1,9 +1,11 @@
 [package]
-name = "cairo_quine"
+name = "quines"
 version = "0.1.0"
+authors = ["Tekkac <tekkac@proton.me>"]
+description = "A set of quines in Cairo"
+keywords = ["self-replicating", "quine", "cairo", "starknet"]
 edition = "2024_07"
 
-# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
 
 [dependencies]
 
