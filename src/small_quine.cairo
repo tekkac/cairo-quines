@@ -1,0 +1,2 @@
+#[cairofmt::skip]pub fn main(){let mut q="";let mut n="";q.append_byte(34);n.append_byte(10);let s:ByteArray="#[cairofmt::skip]pub fn main(){{let mut q={q}{q};let mut n={q}{q};q.append_byte(34);n.append_byte(10);let s:ByteArray={q}{s}{q};println!({q}{s}{q});}}{n}";println!("#[cairofmt::skip]pub fn main(){{let mut q={q}{q};let mut n={q}{q};q.append_byte(34);n.append_byte(10);let s:ByteArray={q}{s}{q};println!({q}{s}{q});}}{n}");}
+
