@@ -1,0 +1,17 @@
+name: Cairo Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: software-mansion/setup-scarb@v1
+      - run: scarb build
+      - run: scarb fmt -c
+      - run: scarb test
