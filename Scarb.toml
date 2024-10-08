@@ -10,4 +10,7 @@ edition = "2024_07"
 [dependencies]
 
 [dev-dependencies]
-cairo_test = "2.8.2"
+cairo_test = ">=2.8.2"
+
+[scripts]
+isquine = "python scripts/is_cairo_quine.py"
