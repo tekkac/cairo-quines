@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
+
 import sys
 import subprocess
 import re
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: scarb test | python is_cairo_quine.py <filename>")
+        print("Usage: python is_cairo_quine.py <filename>")
         sys.exit(1)
 
     filename = sys.argv[1]
